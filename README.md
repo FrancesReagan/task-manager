@@ -56,7 +56,12 @@ __What was used in development__
         - Status(pending/in-progress/completed)
         - Due Date
      
-
+__Possible Enhancements__
+  - Adding  the ability to create a form for a new task
+  - Implementing local storage persistence
+  - Adding the ability to edit tasks--more then just delete--
+  - Including notifications when a task is due or coming due
+  - Toggling for light and dark mode themes
 
     
 
