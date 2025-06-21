@@ -15,7 +15,7 @@ import TaskFilter from "./TaskFilter.jsx";
       id: 1, 
       title: "Complete Mod9SBA", 
       description: "Complete mod9SBA", 
-      status: "pending", 
+      status: "in progress", 
       priority: "high", 
       dueDate: "06-26-2025" 
 
