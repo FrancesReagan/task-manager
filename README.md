@@ -47,6 +47,8 @@ __What was used in development__
 
   <img width="404" alt="image" src="https://github.com/user-attachments/assets/e784a814-36cc-4441-8407-a4bea397e6a0" />
 
+  _note: ensure your index.html is not in the component, nor public, nor assests, etc folders--just directly under the task-manager folder---as if it is not globally accessible--this can make you have a `404` error  until it is available to whole app._
+  
   __How it works__
     - The Task Management System App use's React's `useState` hook for the app's state management. Tasks are stored in the local state and filtered in real-time based on how the user interacts with it.
     
