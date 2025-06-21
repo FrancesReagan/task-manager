@@ -48,7 +48,20 @@
 
 *what was implemented:
   - I used the spread operator(...task) to create new task objects instead of modifying existing ones; targeted updates (only the task being changed gets a new object--the other tasks stay unchanged.
-  - Used the map function to create a new array all the while preserving the order and updating only the item desired to update. All of this ensures that React will recognize the change and trigger the desired re-renders.  All of the above maintains data integrity while giving easy user interactions with the app. 
+  - Used the map function to create a new array all the while preserving the order and updating only the item desired to update. All of this ensures that React will recognize the change and trigger the desired re-renders.  All of the above maintains data integrity while giving easy user interactions with the app.
+ - To enhance the user's experience I implemented many conditional rendering patterns, namely:
+   -Empty state handling
+   -Dynamic styles based on task status
+   -User Feedback
+   -Dynamic CSS classes
+   -Task count diplay
+   -Elegant updates
+   -Template literals
+   -Ternary operators
+   -Responi rendering
+
+The conditional rendering system provides those who use the app a pleasant experience (helpful feedback, visual cues, clean and responsive interface. Each of the rendering
+choices serve a specific goal of the user---the user will see visual status indicators and informatinve empty states.
   
   
    
