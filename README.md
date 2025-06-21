@@ -48,7 +48,7 @@ __What was used in development__
   <img width="262" alt="image" src="https://github.com/user-attachments/assets/e06da4c3-8f68-42ff-8f69-16dd90a82199" />
 
   _note: I added a favicon task check mark icon this is only optional--and I added a registration form that will be later implemented when this is made into a task management dashboard_
-  _note: ensure your index.html is not in the component, nor public, nor assests, etc folders--just directly under the task-manager folder---as if it is not globally accessible--this can make you have a `404` error  until it is available to whole app._
+   -  _note: ensure your index.html is not in the component, nor public, nor assests, etc folders--just directly under the task-manager folder---as if it is not globally accessible--this can make you have a `404` error  until it is available to whole app._
   
   __How it works__
     - The Task Management System App use's React's `useState` hook for the app's state management. Tasks are stored in the local state and filtered in real-time based on how the user interacts with it.
