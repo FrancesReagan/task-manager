@@ -45,8 +45,9 @@ __What was used in development__
 
   __Project Structure__
 
-  <img width="404" alt="image" src="https://github.com/user-attachments/assets/e784a814-36cc-4441-8407-a4bea397e6a0" />
+  <img width="262" alt="image" src="https://github.com/user-attachments/assets/e06da4c3-8f68-42ff-8f69-16dd90a82199" />
 
+  _note: I added a favicon task check mark icon this is only optional--and I added a registration form that will be later implemented when this is made into a task management dashboard_
   _note: ensure your index.html is not in the component, nor public, nor assests, etc folders--just directly under the task-manager folder---as if it is not globally accessible--this can make you have a `404` error  until it is available to whole app._
   
   __How it works__
