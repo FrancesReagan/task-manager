@@ -1,7 +1,7 @@
 //these are my tools to use//
 import { useState } from "react";
-import TaskItem from "./TaskFilter";
-import TaskFilter from "./TaskItem";
+import TaskItem from "./TaskItem";
+import TaskFilter from "./TaskFilter";
 
 
   // TaskList Component function//
@@ -39,8 +39,8 @@ import TaskFilter from "./TaskItem";
   ]);
 
   const [filters, setFilters] = useState({
-    status: "ALL",
-    priority: "ALL",
+    status: "all",
+    priority: "all",
   });
 
 

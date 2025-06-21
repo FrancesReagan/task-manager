@@ -1,4 +1,4 @@
-import TaskList from './components/TaskList/TaskList';
+import TaskList from './components/TaskList';
 import "./app.css";
 
 // import RegistrationFrom from './components/RegistrationForm/RegistrationForm'
@@ -7,7 +7,6 @@ import "./app.css";
 function App() {
   return (
     <>
-     <h1>Task Manager</h1>
      <TaskList />
     </>
   );
