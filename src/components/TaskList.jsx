@@ -68,32 +68,25 @@ import TaskFilter from "./TaskItem";
     setTasks(tasks.filter((task) => task.id !== taskId));
   };
   
-  return (
-    
-    <div>
-      {/* <Task Filter onFilter={handleFilter}/> */}
-      <ul>
+  //handle filtering//
+  const handleFilter = (filterType, filterValue) => {
+    setFilters((prevFilters) => ({
+      ...prevFilters,
+      [filterType]: filterValue,
+    }));
+  };
 
-      <li>{tasks.map((task) => (
-        // for each task in our list--we create a TaskItem component----pasing info to taskitem with task={task}...
-        // onStatusChange={handleStatusChange}---giving each taskitem a special tool --the handlestatuschange function
-        //so that I can known when something needs to be changed------//
-        <TaskItem
-        key={task.id}
-        task={task}
-        onChange={() =>
-          console.log(`Changing status for task with ID:${task}`)
-          }
-        onDelete(task.id)
-        />
-      </li>
-      ))}
-      </ul>
-    
-    
+  //filter tasks based on the current filters//
+  const filteredTasks = tasks.filter((task) => {
+    const statusMatch = filters.status === "ALL" || task.status === filters.status;
+    const priorityMatch = filters.priority === "ALL" || task.priority === filters.priority;
+    return statusMatch && priorityMatch;
+  });
 
-    </div>
-  )
+  return () => {
+
   }
-}
+
+    
+  }
 export default TaskList;
