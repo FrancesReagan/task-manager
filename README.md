@@ -12,14 +12,14 @@
 
 A clean, functional, scaleable task manager that is built with React and Vite. This app enables you to organize your tasks, track progress, and so stay productive.
 
-##Features
+#Features
   -Task Management
   -Status Tracking
   -Priority Levels
   -Smart Filtering
   -Real-time Updates
 
-  ##How to install and uss this task management system app
+  #How to install and uss this task management system app
 
   -Installationg-
                              
@@ -47,7 +47,7 @@ A clean, functional, scaleable task manager that is built with React and Vite. T
 
 
 
-## Reflection Answers:
+# Reflection Answers:
 
 *How did you ensure unique keys for your list items?
 
