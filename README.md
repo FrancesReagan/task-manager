@@ -117,7 +117,9 @@ _*What considerations did you make when implementing the filtering functionality
 
 The conditional rendering system provides those who use the app a pleasant experience (helpful feedback, visual cues, clean and responsive interface. Each of the rendering
 choices serve a specific goal of the user---the user will see visual status indicators and informatinve empty states.
-  
+
+_Acknowledgements: to my instructors A.Taverez and C.Wright thank you for helping each of us move through this amazing journey at Per Scholas; to my fellow 2025-RTT-23 Cohort classmates thank you for the space we create together_
+
   
    
 
