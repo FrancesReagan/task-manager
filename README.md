@@ -8,20 +8,22 @@
 
 
 
-# Task Management System App #
+# __Task Management System App__ #
 
 A clean, functional, scaleable task manager that is built with React and Vite. This app enables you to organize your tasks, track progress, and so stay productive.
 
-Features
-  -Task Management
-  -Status Tracking
-  -Priority Levels
-  -Smart Filtering
-  -Real-time Updates
+__Features__
+  -Task Management - you can create, view tasks, and delete them.
+  -Status Tracking - you can mark tasks' status as "pending", "in progress", and or "completed".
+  -Priority Levels - you can select tasks via their priority level of "high", "medium", and or "low"
+  -Smart Filtering - you can filter tasks by their status and priority
+  -Real-time Updates - any changes you make are immediately reflected on the interface.
 
-  How to install and uss this task management system app
+_
 
-  -Installation-
+  __How to install and uss this task management system app__
+
+  __Installation__
                              
     -clone the repository with "git clone [task-managerl]
     -(git clone [your-repo-url]
@@ -29,7 +31,7 @@ Features
     -npm install or npm i
     -npm run dev 
 
-  -Project Structure-
+  __Project Structure__
 
   <img width="404" alt="image" src="https://github.com/user-attachments/assets/e784a814-36cc-4441-8407-a4bea397e6a0" />
 
@@ -40,6 +42,8 @@ Features
      -Priority level(high/medium/low)
      -Status(pending/in-progress/completed
      -Due Date
+
+    
 
 
   
