@@ -23,11 +23,25 @@ A clean, functional, scaleable task manager that is built with React and Vite. T
 
   -Installationg-
                              
-    -clone the repository with "git clone [task-managerl]"
+    -clone the repository with "git clone [task-managerl]
     -(git clone [your-repo-url]
     -cd task-manager
     -npm install or npm i
     -npm run dev 
+
+  -Project Structure-
+
+  <img width="404" alt="image" src="https://github.com/user-attachments/assets/e784a814-36cc-4441-8407-a4bea397e6a0" />
+
+  -How it works-
+   -The Task Management System App use's React's `useState` hook for state management. Tasks are stored in the local state and filtered in real-time based on what the user selects.
+    -Each task contains:
+     -Title and description
+     -Priority level(high/medium/low)
+     -Status(pending/in-progress/completed
+     -Due Date
+
+
   
 
 
