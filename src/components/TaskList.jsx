@@ -65,11 +65,9 @@ import TaskFilter from "./TaskItem";
 
 // Handle deleting a task (passed down to -> onDelete)
   const handleDelete = (taskId) => {
-    const updatedTasks = tasksState.filter((task) => task.id !== taskId);
-    setTaskState(updatedTasks);
+    setTasks(tasks.filter((task) => task.id !== taskId));
   };
   
-
   return (
     
     <div>
