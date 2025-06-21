@@ -84,30 +84,27 @@ import TaskFilter from "./TaskItem";
   });
 
   return (
-    
+
     <div className="task-list">
       <h1> Task Management System </h1>
       <TaskFilter onFilter={handleFilter} />
-    </div>
+    <div>
     <h2>Tasks({filteredTasks.length})</h2>
     {filteredTasks.length === 0 ? (
-      <p className="no-tasks">No tasks match your current filters.</p>
+       <p className="no-tasks">No tasks match your current filters.</p>
     ):(
       filteredTasks.map((task) => (
+        <TaskItem
+         key={task.id}
+        task={task}
+        onStatusChange={handleStatusChange}
+        onDelete={handleDelete}
+        />
+         ))
+        )}
+        </div>
+        </div>
+      );
+    }
 
-
-
-      ))
-
-    )
-    
-    
-    )}
-  
-
-  
-  };
-
-    
-  
 export default TaskList;
