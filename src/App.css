@@ -12,17 +12,17 @@
 }
 
 .task-item-pending {
-  background-color: #f8f9fa;
+  background-color: #8eadef;
 
 }
 
 .task-item-in-progress {
-  background-color: #fff3cd;
+  background-color: #f67c75;
 
 }
 
 .task-item-completed {
-  background-color: #e8f5e8;
+  background-color: #bae8ba;
 }
 
 .task-actions {
