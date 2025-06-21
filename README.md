@@ -49,6 +49,7 @@ __What was used in development__
 
   __How it works__
     - The Task Management System App use's React's `useState` hook for the app's state management. Tasks are stored in the local state and filtered in real-time based on how the user interacts with it.
+    
       - Each task contains:
         - Title and description
         - Priority level(high/medium/low)
