@@ -13,7 +13,7 @@ import TaskFilter from "./TaskItem";
     // sample tasks data//
     { 
       id: 1, 
-      title: "task1", 
+      title: "Complete Mod9SBA", 
       description: "Complete mod9SBA", 
       status: "pending", 
       priority: "high", 
@@ -22,7 +22,7 @@ import TaskFilter from "./TaskItem";
     },
      { 
       id: 2, 
-      title: "task2", 
+      title: "Practice coding", 
       description: "do modern REACT curriculum on Udemy and CodeAcademy",
       status: "pending", 
       priority: "medium", 
@@ -30,11 +30,11 @@ import TaskFilter from "./TaskItem";
     },
      { 
       id: 3, 
-      title: "task3", 
+      title: "Meditation best for cleaning up the mind" , 
       description: "silent vipassana mediation for an hour",
       status: "complete", 
       priority: "low", 
-      dueDate: "06-20-2025" 
+      dueDate: "06-21-2025" 
     },
   ]);
 
