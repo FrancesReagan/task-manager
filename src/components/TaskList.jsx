@@ -2,7 +2,6 @@
 import { useState } from "react";
 import TaskItem from "../TaskItem/TaskItem";
 import TaskFilter from "../TaskFilter/TaskFilter";
-impport "../..styles.css";
 
 
   // TaskList Component function//
@@ -54,7 +53,8 @@ impport "../..styles.css";
     <div>
       {/* <Task Filter onFilter={handleFilter}/> */}
       <ul>
-      {tasks.map((task) => (
+
+      <li>{tasks.map((task) => (
         // for each task in our list--we create a TaskItem component----pasing info to taskitem with task={task}...
         // onStatusChange={handleStatusChange}---giving each taskitem a special tool --the handlestatuschange function
         //so that I can known when something needs to be changed------//
@@ -66,6 +66,7 @@ impport "../..styles.css";
           }
         onDelete(task.id)
         />
+      </li>
       ))}
       </ul>
     

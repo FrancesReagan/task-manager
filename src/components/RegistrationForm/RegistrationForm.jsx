@@ -1,7 +1,24 @@
 import React, { useState, useEffect } from 'react';
 
-function RegistrationForm() {
-  // const [registration, setRegistration] = useState<string | null>(null);
+
+
+// function RegistrationForm() {
+//   const EffectExamples: React.FC = () => {
+//   const [count, setCount] = useState<number>(0);
+//   const [text, setText] = useState<string>('');
+//   }}
+
+// useEffect(() => {
+//     console.log('Effect 2: Component mounted (initial render)');
+//     // Fetch initial data, set up global listeners, etc.
+//     document.title = 'React App - useEffect';
+//   }, []); // Empty array means run on
+
+// Example 4: Runs when 'text' changes
+  // useEffect(() => {
+  //   console.log(`Effect 4: Text changed to ${text}`);
+  // }, [text]); // Re-run only if 'text' changes
+
 
 return (
   <form className="flex flex-col gap-4 w-max mx-auto mb-10">

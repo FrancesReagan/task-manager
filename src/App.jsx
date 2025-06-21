@@ -1,6 +1,8 @@
 
 import TaskList from './components/TaskList/TaskList'
-import "./styles.css";
+import RegistrationFrom from './components/RegistrationForm/RegistrationForm'
+// import TaskFilter from './components/TaskFilter/TaskFilter';
+
 
 
 function App() {
