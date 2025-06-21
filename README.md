@@ -47,13 +47,13 @@ __What was used in development__
 
   <img width="404" alt="image" src="https://github.com/user-attachments/assets/e784a814-36cc-4441-8407-a4bea397e6a0" />
 
-  -How it works-
-   -The Task Management System App use's React's `useState` hook for the app's state management. Tasks are stored in the local state and filtered in real-time based on how the user interacts with it.
-    -Each task contains:
-     - Title and description
-     - Priority level(high/medium/low)
-     - Status(pending/in-progress/completed)
-     - Due Date
+  __How it works__
+    - The Task Management System App use's React's `useState` hook for the app's state management. Tasks are stored in the local state and filtered in real-time based on how the user interacts with it.
+      - Each task contains:
+        - Title and description
+        - Priority level(high/medium/low)
+        - Status(pending/in-progress/completed)
+        - Due Date
      
 
 
