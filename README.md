@@ -22,14 +22,18 @@ A clean, functional, scaleable task manager that is built with React and Vite. T
   ##How to install and uss this task management system app
 
   -Installationg-
-  clone the repository
+                             
+    -clone the repository with "git clone [task-managerl]"
+    -(git clone [your-repo-url]
+    -cd task-manager
+    -npm install or npm i
+    -npm run dev 
+  
 
 
 
 
-## Title
-
-##Reflection Answers:
+## Reflection Answers:
 
 *How did you ensure unique keys for your list items?
 
