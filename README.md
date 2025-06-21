@@ -21,7 +21,7 @@ Features
 
   How to install and uss this task management system app
 
-  -Installationg-
+  -Installation-
                              
     -clone the repository with "git clone [task-managerl]
     -(git clone [your-repo-url]
