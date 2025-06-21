@@ -8,7 +8,21 @@
 
 
 
-# Task Manager
+# Task Management System App #
+
+A clean, functional, scaleable task manager that is built with React and Vite. This app enables you to organize your tasks, track progress, and so stay productive.
+
+##Features
+  -Task Management
+  -Status Tracking
+  -Priority Levels
+  -Smart Filtering
+  -Real-time Updates
+
+  ##How to install and uss this task management system app
+
+  -Installationg-
+  clone the repository
 
 
 
