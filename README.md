@@ -25,22 +25,23 @@ __Features__
 
 __What was used in development__
   
-  `- React react@18.3.1
+  - React react@18.3.1
   - Node.js v22.16.0
   - Vite vite@6.3.5
   - Modern JavaScript
-  - Custom CSS`
+  - Custom CSS
 
 
   __How to install and uss this task management system app__
 
   __Installation__
-    `-Need Node.js @14 or higher          
-    -clone the repository with "git clone [task-managerl]
-    -(git clone [your-repo-url]
-    -cd task-manager
-    -npm install or npm i
-    -npm run dev `
+   - Need Node.js @14 or higher          
+   - clone the repository with "git clone [task-managerl]
+   - (git clone [your-repo-url]
+   - cd task-manager
+   - npm install or npm i
+   - npm run dev
+   - ctl click on the local host link and keep this browser up to help see if it is working, see how the CSS is looking, and debug your code
 
   __Project Structure__
 
