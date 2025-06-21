@@ -12,14 +12,14 @@
 
 A clean, functional, scaleable task manager that is built with React and Vite. This app enables you to organize your tasks, track progress, and so stay productive.
 
-#Features
+Features
   -Task Management
   -Status Tracking
   -Priority Levels
   -Smart Filtering
   -Real-time Updates
 
-  #How to install and uss this task management system app
+  How to install and uss this task management system app
 
   -Installationg-
                              
@@ -62,9 +62,9 @@ A clean, functional, scaleable task manager that is built with React and Vite. T
   Choices my cohort and I made were to combine filtering logic (filters will work together using 'AND' logic--meaning tasks must match both status and priority filters
   to be displayed. We used "all" option handling as when a filter is set to "all" it will disable the filter criteria. As filters apply immediately when changed this provides instant feedback to those who use the app. As we used a single filter object it makes it very easy to add new kinds of filter types and so makes the code easily expandable....
   
-  -const statusMatch = filters.status === "all" || task.status ===filters.status;
+  -`const statusMatch = filters.status === "all" || task.status ===filters.status;
   -const priorityMatch = filters.priority === "all" || task.priority === filters.priority;
-  -return statusMatch && priorityMatch;
+  -return statusMatch && priorityMatch;`
 
   This approach provides users with precise control over which tasks they see.
 
@@ -72,11 +72,11 @@ A clean, functional, scaleable task manager that is built with React and Vite. T
 
   I implemented immutable state updates that work with React's rendering system quite well:
 
-  const handleStatusChange = (taskid, newStatus) => {
+  `const handleStatusChange = (taskid, newStatus) => {
   setTasks (tasks.map((task) =>
   task.id === taskid ? {...task, status: newStatus) : task
   ));
-  };
+  };`
 
 *what was implemented:
   - I used the spread operator(...task) to create new task objects instead of modifying existing ones; targeted updates (only the task being changed gets a new object--the other tasks stay unchanged.
