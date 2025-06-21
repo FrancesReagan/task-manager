@@ -14,22 +14,33 @@ A clean, functional, scaleable task manager that is built with React and Vite. T
 
 __Features__
   -Task Management - you can create, view tasks, and delete them.
+  
   -Status Tracking - you can mark tasks' status as "pending", "in progress", and or "completed".
+  
   -Priority Levels - you can select tasks via their priority level of "high", "medium", and or "low"
+  
   -Smart Filtering - you can filter tasks by their status and priority
+  
   -Real-time Updates - any changes you make are immediately reflected on the interface.
 
-_
+__What was used in development__
+  
+  `- React react@18.3.1
+  - Node.js v22.16.0
+  - Vite vite@6.3.5
+  - Modern JavaScript
+  - Custom CSS`
+
 
   __How to install and uss this task management system app__
 
   __Installation__
-                             
+    `-Need Node.js @14 or higher          
     -clone the repository with "git clone [task-managerl]
     -(git clone [your-repo-url]
     -cd task-manager
     -npm install or npm i
-    -npm run dev 
+    -npm run dev `
 
   __Project Structure__
 
