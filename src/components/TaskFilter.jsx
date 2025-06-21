@@ -3,7 +3,7 @@ function TaskFilter ({onFilter}) {
   // const [selectOption, setSelectOption] = useState("all");
   return (
 <div className="task-filter">
-  <h3>Filter tasks</h3>
+  <h3>Filter Tasks</h3>
   <div className="filter-controls">
  <div>
     <label htmlFor="status-filter"> Status:</label>

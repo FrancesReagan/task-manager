@@ -1,7 +1,7 @@
 //these are my tools to use//
 import { useState } from "react";
-import TaskItem from "./TaskItem";
-import TaskFilter from "./TaskFilter";
+import TaskItem from "./TaskItem.jsx";
+import TaskFilter from "./TaskFilter.jsx";
 
 
   // TaskList Component function//
@@ -32,7 +32,7 @@ import TaskFilter from "./TaskFilter";
       id: 3, 
       title: "Meditation best for cleaning up the mind" , 
       description: "silent vipassana mediation for an hour",
-      status: "complete", 
+      status: "completed", 
       priority: "low", 
       dueDate: "06-21-2025" 
     },
@@ -78,8 +78,8 @@ import TaskFilter from "./TaskFilter";
 
   //filter tasks based on the current filters//
   const filteredTasks = tasks.filter((task) => {
-    const statusMatch = filters.status === "ALL" || task.status === filters.status;
-    const priorityMatch = filters.priority === "ALL" || task.priority === filters.priority;
+    const statusMatch = filters.status === "all" || task.status === filters.status;
+    const priorityMatch = filters.priority === "all" || task.priority === filters.priority;
     return statusMatch && priorityMatch;
   });
 

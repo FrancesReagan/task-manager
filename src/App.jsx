@@ -1,15 +1,20 @@
-import TaskList from './components/TaskList';
-import "./app.css";
+import TaskList from './components/TaskList.jsx';
+import "./App.css";
 
-// import RegistrationFrom from './components/RegistrationForm/RegistrationForm'
+// import RegistrationFrom from './components/RegistrationForm/RegistrationForm'//
 
 
-function App() {
+export default function App() {
   return (
-    <>
-     <TaskList />
-    </>
+      <div>
+      <h1>Test - App is Working!</h1>
+      <TaskList />
+    </div>
   );
 }
 
-export default App;
+// export default function App() {
+//   return <h1>Hello World Test</h1>;
+// }
+
+

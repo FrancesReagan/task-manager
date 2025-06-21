@@ -21,6 +21,10 @@
 
 }
 
+.task-item-completed {
+  background-color: #e8f5e8;
+}
+
 .task-actions {
   margin-top: 10px;
 }
