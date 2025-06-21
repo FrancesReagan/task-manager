@@ -3,14 +3,13 @@
 function TaskItem({task, onStatusChange, onDelete}){
 
     return(
-        <div>
-            <h2>
-                Task Item
-            </h2>
-            <p>{task.title}</p>
+        <div className={`task-item task-item-${task.status}`}>
+            <h3>{task.title}</h3>
             <p>{task.description}</p>
-            <p>{task.priority}</p>
-            <p>{task.dueDate}</p>
+            <p><strong>Priority:</strong>{task.priority}</p>
+            <p><strong>Due Date:</strong>{task.dueDate}</p>
+            <p><strong>Status:</strong>{task.status}</p>
+            
             
       <select onChange={event => onStatusChange(task.id, event.target.value)}>     
       <option value="completed">Completed</option>
