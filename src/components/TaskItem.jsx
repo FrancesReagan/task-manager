@@ -1,7 +1,6 @@
 
-
+//TaskItem Component//
 function TaskItem({task, onStatusChange, onDelete}){
-
 
     return(
         <div>
